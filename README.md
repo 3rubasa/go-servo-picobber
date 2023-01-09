@@ -12,7 +12,7 @@ any additional Raspberry Pi processing overhead.
 ## Install the driver
 
 ```shell
-go get github.com/waltzofpearls/go-servo-picobber
+go get github.com/3rubasa/go-servo-picobber
 ```
 
 ## Example
@@ -35,7 +35,7 @@ func main() {
     if err != nil {
         log.Println(err)
     }
-    sv.SetPwmFreq(60) // Set frequency to 60 Hz
+    sv.SetPwmFreq(50) // Set frequency to 60 Hz
     for {
         // Change speed of continuous servo on channel O
         sv.SetPwm(0, 0, servoMin)
