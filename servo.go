@@ -10,7 +10,7 @@ import (
 
 const (
 	I2C_BUS  byte = 1
-	I2C_ADDR byte = 0x6F
+	I2C_ADDR byte = 0x40
 
 	SUBADR1      byte = 0x02
 	SUBADR2      byte = 0x03
