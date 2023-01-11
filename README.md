@@ -24,7 +24,7 @@ import (
     "log"
     "time"
 
-    "github.com/3rubsa/go-servo-picobber"
+    "github.com/3rubasa/go-servo-picobber"
 )
 
 func main() {
